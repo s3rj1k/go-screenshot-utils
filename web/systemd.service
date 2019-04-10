@@ -1,0 +1,18 @@
+[Unit]
+Description=CDP screenshot service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/screenshot/screenshot-web -chrome-bin="/usr/bin/google-chrome-stable" -listen-port=8888 -time-deadline=300
+WorkingDirectory=/opt/screenshot/
+ExecStop=/bin/sh -c "/usr/bin/pkill screenshot-web && /usr/bin/pkill google-chrome-stable"
+
+Restart=on-failure
+RestartSec=10
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
