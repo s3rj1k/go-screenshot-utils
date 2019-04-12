@@ -20,7 +20,11 @@ func init() {
 	flag.BoolVar(&cmdFullPage, "fullpage", true, "Fullpage or Viewport")
 	flag.IntVar(&cmdWindowWidth, "viewport-width", 1920, "Viewport Width")
 	flag.IntVar(&cmdWindowHight, "viewport-hight", 1080, "Viewport Hight")
-	flag.IntVar(&cmdBottomPadding, "bottom-padding", 0, "Viewport bottom padding")
+
+	flag.IntVar(&cmdPaddingTop, "padding-top", 0, "Viewport padding-top")
+	flag.IntVar(&cmdPaddingBottom, "padding-bottom", 0, "Viewport padding-bottom")
+	flag.IntVar(&cmdPaddingLeft, "padding-left", 0, "Viewport padding-left")
+	flag.IntVar(&cmdPaddingRight, "padding-right", 0, "Viewport padding-right")
 
 	flag.BoolVar(&cmdJpeg, "jpeg", true, "Create JPEG instead of PNG")
 	flag.IntVar(&cmdJpegQuality, "jpeg-quality", 95, "JPEG quality")

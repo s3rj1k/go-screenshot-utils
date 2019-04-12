@@ -13,4 +13,6 @@ github.com/mafredri/cdp v0.23.0 h1:Qrzms9wVwOpJdbF3ooxZcBTnEqjiqHQkT8kCyTtjoPg=
 github.com/mafredri/cdp v0.23.0/go.mod h1:hgdiA0yp1uqhSaDOHJWPgXpMbh+LAfUdD9vbN2AM8gE=
 github.com/s3rj1k/go-screenshots v1.0.0 h1:4uBo9oTzldd6qQo0SQAaKGKITTK/QZOpnee3Av26p2M=
 github.com/s3rj1k/go-screenshots v1.0.0/go.mod h1:LugdDp8ilDZiTxTAv5iheYa46qVHgIrub4c4H7JQOH0=
+github.com/s3rj1k/go-screenshots v1.0.1 h1:AX6bte8wNaH9qpRuF/JsrJFCY6MbCj3/gQDNZkx2AyY=
+github.com/s3rj1k/go-screenshots v1.0.1/go.mod h1:LugdDp8ilDZiTxTAv5iheYa46qVHgIrub4c4H7JQOH0=
 golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=

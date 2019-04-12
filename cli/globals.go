@@ -12,10 +12,14 @@ var (
 
 	cmdURL string
 
-	cmdFullPage      bool
-	cmdWindowWidth   int
-	cmdWindowHight   int
-	cmdBottomPadding int
+	cmdFullPage    bool
+	cmdWindowWidth int
+	cmdWindowHight int
+
+	cmdPaddingBottom int
+	cmdPaddingLeft   int
+	cmdPaddingRight  int
+	cmdPaddingTop    int
 
 	cmdJpeg        bool
 	cmdJpegQuality int

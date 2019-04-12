@@ -23,7 +23,12 @@ func main() {
 	c.JpegQuality = cmdJpegQuality
 	c.AcceptLanguage = cmdAcceptLanguage
 	c.UserAgent = cmdUserAgent
-	c.BottomPadding = cmdBottomPadding
+
+	c.PaddingBottom = cmdPaddingBottom
+	c.PaddingLeft = cmdPaddingLeft
+	c.PaddingRight = cmdPaddingRight
+	c.PaddingTop = cmdPaddingTop
+
 	c.RandomProfileDir = cmdRandomProfileDir
 	c.ProfileDir = cmdProfileDir
 
